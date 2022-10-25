@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { SiMongodb, SiPostgresql, SiExpress } from "react-icons/si";
@@ -15,38 +16,50 @@ export const About = () => {
       </h1>
       <article>
         <p className="font-semibold text-slate-100 text-xl lg:text-2xl py-2">
-          3 years of experience as a Frontend Developer. Open as a freelancer and work with team to aport all my knowledge to create modern and efficient apps. I'm open to learn new technologies if is necessary to help and i consider myself a responsible person.
+          3 years of experience as a Frontend Developer. Open as a freelancer
+          and work with team to aport all my knowledge to create modern and
+          efficient apps. I'm open to learn new technologies if is necessary to
+          help and i consider myself a responsible person.
         </p>
-
 
         <h2 className="text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-pink-700 max-w-max py-2">
           Experience
         </h2>
 
-        <div className='flex flex-col my-6 justify-center'>
-          <div className='flex flex-col lg:flex-row gap-2 lg:gap-4 items-center justify-start'>
-            <h3 className='font-bold text-3xl text-blue-500' >Freelancer</h3>
-            <h3 className='font-bold text-2xl'>2021/01/05 - Present</h3>
+        <div className="flex flex-col my-6 justify-center">
+          <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 items-center justify-start">
+            <h3 className="font-bold text-3xl text-blue-500">Freelancer</h3>
+            <h3 className="font-bold text-2xl">2021/01/05 - Present</h3>
           </div>
           <p className="font-semibold text-slate-100 text-xl lg:text-2xl py-2">
-            I've been working as a freelancer to small local companies and clients
+            I've been working as a freelancer to small local companies and
+            clients
           </p>
         </div>
 
-        <div className='flex flex-col my-6 justify-center'>
-          <div className='flex flex-col lg:flex-row gap-2 lg:gap-4 items-center justify-start'>
-            <h3 className='font-bold text-3xl text-blue-500' >Frontend-Developer on Traki company</h3>
-            <h3 className='font-bold text-2xl'>2019/11/03 - 2020/11/03</h3>
+        <div className="flex flex-col my-6 justify-center">
+          <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 items-center justify-start">
+            <h3 className="font-bold text-3xl text-blue-500">
+              Frontend-Developer on Traki company
+            </h3>
+            <h3 className="font-bold text-2xl">2019/11/03 - 2020/11/03</h3>
           </div>
           <p className="font-semibold text-slate-100 text-xl lg:text-2xl py-2">
-            I've been working as a Front-End developer for this company. Traki is a big company for wear products and more and my team and I were responsible for make the ecommerce app, improving the UI, performance and bug resolving.
+            I've been working as a Front-End developer for this company. Traki
+            is a big company for wear products and more and my team and I were
+            responsible for make the ecommerce app, improving the UI,
+            performance and bug resolving.
           </p>
 
-          <a className='max-w-max text-lg font-semibold text-blue-700 hover:underline' target='_blank' href='https://www.traki.com/'>Traki web site</a>
+          <a
+            className="max-w-max text-lg font-semibold text-blue-700 hover:underline"
+            target="_blank"
+            href="https://www.traki.com/"
+            rel="noreferrer"
+          >
+            Traki web site
+          </a>
         </div>
-
-
-
 
         <div className="flex flex-col my-6 gap-4">
           <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-pink-700 max-w-max py-2">
@@ -95,6 +108,6 @@ export const About = () => {
           </ul>
         </div>
       </article>
-    </section >
+    </section>
   );
 };
