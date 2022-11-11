@@ -33,6 +33,14 @@ const projects = [
     source: "https://github.com/joaquinns/react-giff-app",
   },
   {
+    name: "Password Generator app",
+    description: "This app was created with vite and deployed in vercel",
+    img_url:
+      "https://raw.githubusercontent.com/joaquinns/password-generator-js/master/password%20generator.PNG",
+    project_link: "https://password-generator-js-flax.vercel.app/",
+    source: "https://github.com/joaquinns/password-generator-js",
+  },
+  {
     name: "SearchMovie app",
     description:
       "This app was created with create-react-app and deployed to netlify",
