@@ -24,6 +24,15 @@ const projects = [
     source: "https://github.com/joaquinns/video-tok",
   },
   {
+    name: "Minecraft-js",
+    description:
+      "This is a simple game was created with react, threeJs and vite with zustand global store",
+    img_url:
+      "https://raw.githubusercontent.com/joaquinns/minecraft-js-init/master/minecraftjs.PNG",
+    project_link: "https://minecraft-js-init.vercel.app/",
+    source: "https://github.com/joaquinns/minecraft-js-init",
+  },
+  {
     name: "Giffy App",
     description:
       "This app was created with create-react-app and deployed to vercel",
