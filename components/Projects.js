@@ -6,6 +6,15 @@ const animationDelay = "200";
 
 const projects = [
   {
+    name: "Rest Api node/typescript/mongoDB/jest/swagger",
+    description: "A example node api with express api, typescript, mongoDB, ",
+    img_url:
+      "https://github.com/joaquinns/backend-node-api-ts-mongo/blob/master/rest-api-ts-mongo.PNG?raw=true",
+    project_link:
+      "https://backend-node-api-ts-mongo-production.up.railway.app/docs/",
+    source: "https://github.com/joaquinns/backend-node-api-ts-mongo",
+  },
+  {
     name: "Social-album App",
     description:
       "Social-album is an app to share photo albums with other users. Created with NextJS and supabase",
