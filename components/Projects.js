@@ -6,8 +6,9 @@ const animationDelay = "200";
 
 const projects = [
   {
-    name: "Rest Api node/typescript/mongoDB/jest/swagger",
-    description: "A example node api with express api, typescript, mongoDB",
+    name: "Rest api with node",
+    description:
+      "A example node api with express api, typescript, mongoDB in the database, unit test with jest",
     img_url:
       "https://raw.githubusercontent.com/joaquinns/backend-node-api-ts-mongo/master/rest-api-ts-mongo.PNG",
     project_link:
