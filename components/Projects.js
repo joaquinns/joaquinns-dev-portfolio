@@ -34,6 +34,16 @@ const projects = [
     source: "https://github.com/joaquinns/video-tok",
   },
   {
+    name: "Fix my english IA",
+    description:
+      "This app was made with cohere-IA and was created to fix the english of students and for a hackaton",
+    img_url:
+      "https://raw.githubusercontent.com/joaquinns/cohere-node-ia-fixMyEnglish/master/desktop.PNG",
+    project_link: "https://cohere-node-ia-fix-my-english.vercel.app/",
+    source:
+      "https://github.com/joaquinns/cohere-node-ia-fixMyEnglish/tree/master",
+  },
+  {
     name: "Minecraft-js",
     description:
       "This is a simple game was created with react, threeJs and vite with zustand global store",
