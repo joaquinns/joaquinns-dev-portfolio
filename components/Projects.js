@@ -44,6 +44,15 @@ const projects = [
       "https://github.com/joaquinns/cohere-node-ia-fixMyEnglish/tree/master",
   },
   {
+    name: "Image editor",
+    description:
+      "In this app you can edit your images fixing their quality, width, height, filters etc. Was created with react and cloudinary",
+    img_url:
+      "https://raw.githubusercontent.com/joaquinns/hackaton-cloudinary/master/preview.PNG",
+    project_link: "https://hackaton-cloudinary.vercel.app/",
+    source: "https://github.com/joaquinns/hackaton-cloudinary",
+  },
+  {
     name: "Minecraft-js",
     description:
       "This is a simple game was created with react, threeJs and vite with zustand global store",
