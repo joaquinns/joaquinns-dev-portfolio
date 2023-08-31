@@ -11,8 +11,7 @@ const projects = [
       "A example node api with express api, typescript, mongoDB in the database, unit test with jest",
     img_url:
       "https://raw.githubusercontent.com/joaquinns/backend-node-api-ts-mongo/master/rest-api-ts-mongo.PNG",
-    project_link:
-      "https://backend-node-api-ts-mongo-production.up.railway.app/docs/",
+    project_link: "https://backend-node-api-ts-mongo-vw64-dev.fl0.io/docs/",
     source: "https://github.com/joaquinns/backend-node-api-ts-mongo",
   },
   {
